@@ -1,0 +1,55 @@
+# ==============================================================================
+# Global Repository .gitignore (Resume AI)
+# ==============================================================================
+
+# Environment files (exclude secrets, keep templates)
+.env
+.env.*
+.env.local
+!.env.example
+
+# Python & Pytest artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.cover
+nosetests.xml
+coverage.xml
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Node.js dependencies & build outputs
+node_modules/
+Frontend/node_modules/
+Backend_node_backup/node_modules/
+dist/
+dist-ssr/
+build/
+
+# Local databases & logs
+*.sqlite
+*.sqlite3
+*.db
+*.log
+logs/
+
+# Playwright
+.playwright/
+
+# Editor & OS files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
